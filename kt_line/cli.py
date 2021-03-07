@@ -1,5 +1,5 @@
+from kt_line import kt_line
 import sys
-import kt_line
 
 
 def cli():
