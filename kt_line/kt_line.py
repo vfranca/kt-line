@@ -6,7 +6,3 @@ def line(a, b):
     gap = a - b
     c = b - gap
     return c
-
-
-if __name__ == "__main__":
-    print(line(2, 3))

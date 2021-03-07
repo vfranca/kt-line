@@ -1,11 +1,13 @@
 from kt_line import kt_line
-import sys
+import click
 
 
-def cli():
-    a = float(sys.argv[1])
-    b = float(sys.argv[2])
-    print(kt_line.line(a, b))
+@click.command()
+@click.argument("a")
+@click.argument("b")
+def cli(a, b):
+    if a and b:
+        click.echo(kt_line.line(float(a), float(b)))
 
 
 if __name__ == "__main__":

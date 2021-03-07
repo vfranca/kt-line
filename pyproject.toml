@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kt-line"
-version = "0.1.0"
+version = "0.2.0"
 description = "Ferramenta de linha de comando para calcular linha de tendencia e linha de canal"
 authors = ["Valmir Franca <vfranca3@gmail.com>"]
 license = "GPL-2.0-only"
@@ -21,6 +21,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
+click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
